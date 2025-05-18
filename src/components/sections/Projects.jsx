@@ -46,8 +46,7 @@ const Projects = ({ onShowAll }) => {
     image: SalesDashboard,
     technologies: ['PowerBI', 'Buisness Intelligence'],
     links: {
-      github: 'https://github.com/yourusername/portfolio',
-      live: 'https://yourportfolio.com'
+      github: 'https://github.com/yourusername/portfolio'
     }
   }
 ];
