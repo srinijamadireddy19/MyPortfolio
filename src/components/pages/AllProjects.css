@@ -1,0 +1,144 @@
+/* Container for the full page */
+.all-items-page {
+  padding: 80px 64px;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+/* Back button styling */
+.back-button {
+  font-size: 1rem;
+  color: #87432e;
+  cursor: pointer;
+  margin-bottom: 24px;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.back-button:hover {
+  color: #87432e;
+}
+
+/* Horizontal cards container */
+.horizontal-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* Base card styling */
+.horizontal-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+  transition: transform 0.3s ease;
+}
+
+.horizontal-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Collapsed view */
+.card-collapsed h3 {
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.card-collapsed p {
+  color: #555;
+  margin-bottom: 16px;
+}
+
+/* Expanded view layout */
+.card-expanded {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.card-header h3 {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.card-date {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+/* Content split between text and image */
+.card-content {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.card-details {
+  flex: 2;
+}
+
+.card-details p {
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.card-image {
+  flex: 1;
+  max-width: 400px;
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Technologies */
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.tech-tag {
+  background-color: #eee;
+  color: #333;
+  font-size: 0.85rem;
+  padding: 6px 12px;
+  border-radius: 16px;
+}
+
+/* Toggle button */
+.view-toggle {
+  display: inline-block;
+  background-color: #87432e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  align-self: flex-start;
+}
+
+.view-toggle:hover {
+  background-color: #ac543a;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .card-content {
+    flex-direction: column;
+  }
+
+  .card-image {
+    max-width: 100%;
+  }
+
+  .all-items-page {
+    padding: 64px 24px;
+  }
+}

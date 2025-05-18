@@ -1,0 +1,225 @@
+/* AllCertifications.css */
+
+.all-certifications-page {
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.cert-back-button {
+  cursor: pointer;
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 20px;
+  user-select: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.3s ease;
+}
+
+.cert-back-button:hover {
+  color: #007bff;
+}
+
+.cert-section-content h2 {
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #222;
+}
+
+/* Container for horizontal cards */
+.cert-horizontal-cards {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 20px;
+  padding-bottom: 10px;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+}
+
+.cert-horizontal-cards::-webkit-scrollbar {
+  height: 8px;
+}
+
+.cert-horizontal-cards::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+/* Individual card */
+.horizontal-card {
+  flex: 0 0 320px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  user-select: none;
+  margin: 20px
+}
+
+.cert-horizontal-card:hover {
+  transform: translateY(-6px);
+}
+
+/* Collapsed view */
+.cert-card-collapsed h3 {
+  font-size: 1.25rem;
+  margin-bottom: 6px;
+  color: #222;
+}
+
+.cert-card-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.cert-card-collapsed p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Expanded view */
+.cert-card-expanded {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.cert-card-header h3 {
+  font-size: 1.4rem;
+  margin-bottom: 4px;
+  color: #111;
+}
+
+.cert-card-header .cert-card-meta {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cert-card-content {
+  flex-grow: 1;
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.card-image {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+
+.card-image img {
+  max-width: 100%;
+  box-shadow: 0 4px 10px rgb(0 0 0 / 0.1);
+  border: 0.5px solid black;
+}
+
+/* Button */
+.cert-view-toggle {
+  align-self: center;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 22px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  user-select: none;
+}
+
+.cert-view-toggle:hover {
+  background-color: #0056b3;
+}
+
+.skills ul {
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.skills li {
+  list-style-type: disc;
+  margin-bottom: 4px;
+}
+
+/* Credential info styles */
+.cert-card-content p strong {
+  color: #222;
+}
+
+.cert-card-content a {
+  color: #007bff;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.cert-card-content a:hover {
+  text-decoration: underline;
+}
+
+/* Skills list styling */
+.skills {
+    display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.cert-card-content .skills strong {
+  display: block;
+  margin-bottom: 4px;
+  color: #333;
+}
+
+.cert-card-content .skills ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.cert-card-content .skills li {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 4px;
+}
+.skill-tag {
+  background-color: #eee;
+  color: #333;
+  font-size: 0.85rem;
+  padding: 6px 12px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .cert-horizontal-cards {
+    flex-wrap: wrap;
+    overflow-x: visible;
+    justify-content: center;
+  }
+
+  .cert-horizontal-card {
+    flex: 0 0 90%;
+    max-width: 90%;
+  }
+}
