@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import './Sections.css';
 import animals from '../../assets/animals.jpeg';
 import spam from '../../assets/spam.jpg';
-import SalesDashboard from '../../assets/SalesDashboard.png'
+import fashion from '../../assets/fashion.png';
 
 const Projects = ({ onShowAll }) => {
   const navigate = useNavigate();
@@ -38,17 +38,17 @@ const Projects = ({ onShowAll }) => {
   },
   {
     id: 3,
-    title: 'Sales Analysis Dashboard  ',
-    startDate: 'Feb 2025',
-    endDate: 'Feb 2025',
-    description: 'Designed an interactive Power BI dashboard to analyze sales performance across regions, time periods, and product categories.',
-    details: 'The dashboard provides insights into revenue trends, customer segmentation, and key business drivers to support data-driven decision-making.',
-    image: SalesDashboard,
-    technologies: ['PowerBI', 'Buisness Intelligence'],
+    title: 'Fashion-MNIST Neural Network from Scratch',
+    startDate: 'Jul 2025',
+    endDate: 'Sep 2025',
+        details: 'Built core DL components manually including forward & backward propagation, gradient clipping, etc to deeply understand model internals.',
+    image: fashion,
+    technologies: ['Python', 'NumPy', 'Deep Learning', 'Neural Networks', 'From-Scratch Implementation'],
     links: {
-      github: 'https://github.com/yourusername/portfolio'
+      kaggle: 'https://www.kaggle.com/code/madisrinija/fashion-mnist-image-classifier',
+      github: 'https://github.com/srinijamadireddy19/Fashion-MNIST-Classification-From-Scratch'
     }
-  }
+  },
 ];
 
 

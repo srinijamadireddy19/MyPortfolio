@@ -18,6 +18,16 @@ const AllSkills = ({onBack}) => {
       { name: 'Model Building', icon: '🧠', level: 'Expert' },
       { name: 'Data Analytics', icon: '📈', level: 'Advanced' },
       { name: 'Feature Engineering', icon: '🧬', level: 'Intermediate' },
+      { name: 'TensorFlow', icon: '🧠', level: 'Intermediate' },
+      { name: 'Machine Learning', icon: '🤖', level: 'Intermediate' },
+      { name: 'Deep Learning', icon: '🧬', level: 'Intermediate' },
+      { name: 'Neural Networks', icon: '🕸️', level: 'Intermediate' },
+      { name: 'CNNs & RNNs', icon: '🧩', level: 'Intermediate' },
+      { name: 'Data Preprocessing', icon: '🧹', level: 'Intermediate' },
+      { name: 'Model Optimization', icon: '⚡', level: 'Intermediate' },
+      { name: 'Computer Vision', icon: '📸', level: 'Intermediate' },
+      { name: 'NLP', icon: '💬', level: 'Intermediate' },
+
     ],
   },
   {

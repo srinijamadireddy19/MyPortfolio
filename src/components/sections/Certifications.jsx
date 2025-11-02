@@ -3,11 +3,24 @@ import './Sections.css';
 import forage from '../../assets/forage.png';
 import GoogleDataAnalytics from '../../assets/GoogleDataAnalytics.jpeg';
 import techtip24 from '../../assets/techtip24.jpeg';
+import dl from '../../assets/dl.png';
 
 const Certifications = ({ onShowAll }) => {
   const certifications = [
     {
       id: 1,
+      title: 'Deep Learning',
+      issuer: 'Coursera',
+      date: 'Aug 2025',
+      description: 'Completed an industry-recognized Deep Learning certification covering neural networks, CNNs, RNNs, and model optimization. Gained hands-on experience with TensorFlow and PyTorch frameworks.',
+      details: "Acquired skills in building and deploying deep learning models for image recognition, natural language processing, and time series forecasting. Course Certificates Completed: Neural Networks and Deep Learning, Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization, Structuring Machine Learning Projects, Convolutional Neural Networks, Sequence Models",
+      CredentialId : 'A2QCOAQ6KQTM',
+      url:'https://coursera.org/verify/specializat ion/A2QCOAQ6KQTM',
+      skills:['Neural Networks','Convolutional Neural Networks (CNNs)','Recurrent Neural Networks (RNNs)','TensorFlow','PyTorch','Model Optimization','Deep Learning Applications'],
+      image: dl
+    },
+    {
+      id: 2,
       title: 'Google Data Analytics Professional Certificate',
       issuer: 'Coursera',
       date: 'Mar 2025',
@@ -19,7 +32,7 @@ const Certifications = ({ onShowAll }) => {
       image: GoogleDataAnalytics
     },
     {
-      id: 2,
+      id: 3,
       title: 'Accenture North America - Data Analytics and Visualization Job Simulation',
       issuer: 'Forage',
       date: 'Jan 2025',
@@ -31,7 +44,7 @@ const Certifications = ({ onShowAll }) => {
       image: forage
     },
     {
-      id: 3,
+      id: 4,
       title: 'CERTIFICATE of PARTICIPATION',
       issuer: 'TechTip24',
       date: 'Mar 2025',

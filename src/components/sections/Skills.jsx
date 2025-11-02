@@ -8,10 +8,13 @@ const skillCategories = [
       { name: 'SQL (MySQL)', icon: '🛢️', level: 'Expert' },
       { name: 'Data Analytics', icon: '📈', level: 'Advanced' },
       { name: 'Machine Learning', icon: '🧠', level: 'Expert' },
-      { name: 'Seaborn', icon: '🌊', level: 'Advanced' },
       { name: 'AWS', icon: '🖥️', level: 'Intermediate' },
-      { name: 'Salesforce', icon: '☁️', level: 'Intermediate' },
-      { name: 'Excel', icon: '📊', level: 'Expert' }
+      { name: 'TensorFlow', icon: '🧠', level: 'Intermediate' },
+      { name: 'Machine Learning', icon: '🤖', level: 'Intermediate' },
+      { name: 'Deep Learning', icon: '🧬', level: 'Intermediate' },
+      { name: 'Neural Networks', icon: '🕸️', level: 'Intermediate' },
+      { name: 'CNNs & RNNs', icon: '🧩', level: 'Intermediate' },
+      { name: 'NLP', icon: '💬', level: 'Intermediate' },
     ]
   }
 ];

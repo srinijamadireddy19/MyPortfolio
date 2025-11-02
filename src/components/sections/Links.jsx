@@ -15,6 +15,18 @@ const Links = () => {
       icon: '💼'
     },
     {
+      id: 3,
+      name: 'Kaggle',
+      url: 'https://www.kaggle.com/madisrinija',
+      icon: '🖥️'
+    },
+    {
+      id: 4,
+      name: 'Medium',
+      url: 'https://medium.com/@srinijamadireddy111/about',
+      icon: '📈'
+    },
+    {
       id: 5,
       name: 'Google Cloud Skills Boost',
       url: ' https://www.cloudskillsboost.google/public_profiles/36ec92e5-e79b-4fd2-832f-65d4ca4531fe',
@@ -25,6 +37,12 @@ const Links = () => {
       name: 'Resume',
       url: 'https://drive.google.com/file/d/1ae5kgKGx_TaZPdCkC1_cUCe6kFw2YpGn/view?usp=sharing',
       icon: '📄'
+    },
+    {
+      id: 7,
+      name: 'Salesforce Trailhead',
+      url: 'https://www.salesforce.com/trailblazer/d6k3fz0nrqp39x1pg2',
+      icon: '☁️'
     }
   ];
 
