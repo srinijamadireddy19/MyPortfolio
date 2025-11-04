@@ -11,7 +11,7 @@ const About = () => {
               Hi, I'm a student with a strong passion for programming and a growing interest in data science. 
               I’m fascinated by how data can be transformed into insights that drive real-world decisions. 
               As I build my foundation in programming, I'm focusing on learning key data science tools and concepts,
-               including Python, Deep Learning, NumPy, data visualization, and machine learning.
+               including Python, Deep Learning, NumPy, Data visualization, and machine learning.
             </p>
             <p>
              I'm actively working on small projects that involve data analysis, cleaning, and basic 
