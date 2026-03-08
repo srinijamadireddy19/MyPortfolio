@@ -1,0 +1,68 @@
+[
+{
+"category": "Programming",
+"skills": [
+{ "name": "Python", "icon": "🐍", "level": "Expert", "value": 90 },
+{ "name": "R", "icon": "📊", "level": "Expert", "value": 90 },
+{ "name": "Java", "icon": "☕", "level": "Intermediate", "value": 60 },
+{ "name": "SQL (MySQL)", "icon": "🛢️", "level": "Expert", "value": 90 }
+]
+},
+{
+"category": "Machine Learning & Data Science",
+"skills": [
+{ "name": "Model Building", "icon": "🧠", "level": "Expert", "value": 90 },
+{ "name": "Data Analytics", "icon": "📈", "level": "Advanced", "value": 75 },
+{ "name": "Feature Engineering", "icon": "🧬", "level": "Intermediate", "value": 60 },
+{ "name": "TensorFlow", "icon": "🧠", "level": "Intermediate", "value": 60 },
+{ "name": "Machine Learning", "icon": "🤖", "level": "Intermediate", "value": 60 },
+{ "name": "Deep Learning", "icon": "🧬", "level": "Intermediate", "value": 60 },
+{ "name": "Neural Networks", "icon": "🕸️", "level": "Intermediate", "value": 60 },
+{ "name": "CNNs & RNNs", "icon": "🧩", "level": "Intermediate", "value": 60 },
+{ "name": "Data Preprocessing", "icon": "🧹", "level": "Intermediate", "value": 60 },
+{ "name": "Model Optimization", "icon": "⚡", "level": "Intermediate", "value": 60 },
+{ "name": "Computer Vision", "icon": "📸", "level": "Intermediate", "value": 60 },
+{ "name": "NLP", "icon": "💬", "level": "Intermediate", "value": 60 }
+]
+},
+{
+"category": "Data Visualization",
+"skills": [
+{ "name": "Matplotlib", "icon": "📉", "level": "Advanced", "value": 75 },
+{ "name": "Seaborn", "icon": "🌊", "level": "Advanced", "value": 75 },
+{ "name": "ggplot2", "icon": "📐", "level": "Advanced", "value": 75 },
+{ "name": "Power BI", "icon": "📊", "level": "Expert", "value": 90 },
+{ "name": "Tableau", "icon": "📈", "level": "Expert", "value": 90 }
+]
+},
+{
+"category": "Cloud & Platforms",
+"skills": [
+{ "name": "AWS EC2", "icon": "🖥️", "level": "Advanced", "value": 75 },
+{ "name": "AWS S3", "icon": "🗃️", "level": "Advanced", "value": 75 },
+{ "name": "AWS RDS", "icon": "💾", "level": "Intermediate", "value": 60 },
+{ "name": "Google Cloud", "icon": "📂", "level": "Intermediate", "value": 60 },
+{ "name": "Elastic Beanstalk", "icon": "🌿", "level": "Intermediate", "value": 60 },
+{ "name": "Salesforce", "icon": "☁️", "level": "Intermediate", "value": 60 }
+]
+},
+{
+"category": "Frontend Development",
+"skills": [
+{ "name": "HTML", "icon": "🧱", "level": "Expert", "value": 90 },
+{ "name": "CSS", "icon": "🎨", "level": "Advanced", "value": 75 },
+{ "name": "JavaScript", "icon": "📜", "level": "Advanced", "value": 75 },
+{ "name": "ReactJS", "icon": "⚛️", "level": "Expert", "value": 90 }
+]
+},
+{
+"category": "Productivity Tools",
+"skills": [
+{ "name": "Excel", "icon": "📊", "level": "Expert", "value": 90 },
+{ "name": "Google Sheets", "icon": "🧾", "level": "Advanced", "value": 75 },
+{ "name": "VLOOKUP", "icon": "🔍", "level": "Advanced", "value": 75 },
+{ "name": "Pivot Tables", "icon": "🔄", "level": "Advanced", "value": 75 },
+{ "name": "Data Cleaning", "icon": "🧹", "level": "Advanced", "value": 75 }
+]
+}
+]

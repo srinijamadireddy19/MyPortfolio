@@ -1,0 +1,360 @@
+[
+{
+"id": 1,
+"title": "Legal Query Assistant (RAG-based)",
+"startDate": "2025",
+"endDate": "2025",
+"description": "A Retrieval-Augmented Generation (RAG) system that answers legal queries by retrieving relevant legal documents and generating contextual responses.",
+"details": "Built a RAG-based legal assistant that processes user queries and retrieves relevant legal information from a document corpus using vector embeddings and semantic search. Retrieved documents are passed to a language model to generate accurate and context-aware answers. The system combines document retrieval with generative AI to provide reliable responses grounded in legal sources.",
+"image": "legal",
+"technologies": [
+"Python",
+"Retrieval-Augmented Generation (RAG)",
+"Large Language Models",
+"Vector Embeddings",
+"Semantic Search",
+"Natural Language Processing"
+],
+"links": {
+"github": "https://github.com/srinijamadireddy19/legal-query-assistant"
+}
+}
+,
+{
+"id": 2,
+"title": "YouTube Video Summarizer",
+"startDate": "2025",
+"endDate": "2025",
+"description": "An NLP-based tool that generates concise summaries of YouTube videos by extracting transcripts and applying automatic text summarization.",
+"details": "Built a Python pipeline that retrieves video transcripts using the YouTube Transcript API, preprocesses the text, and applies NLP summarization techniques to generate concise summaries of long videos. The system helps users quickly understand video content without watching the entire video.",
+"image": "youtube",
+"technologies": [
+"Python",
+"Natural Language Processing",
+"YouTube Transcript API",
+"Text Summarization",
+"Automation"
+],
+"links": {
+"github": "https://github.com/srinijamadireddy19/YouTube-Video-Summarizer"
+}
+}
+,
+{
+"id": 3,
+"title": "Goodreads Emotional Intelligence Engine",
+"startDate": "2025",
+"endDate": "2025",
+"description": "A transformer-based NLP system that analyzes Goodreads book reviews to uncover nuanced emotional patterns beyond numeric star ratings.",
+"details": "Built an emotion-aware NLP pipeline using a GoEmotions-based DistilRoBERTa transformer to classify review emotions such as joy, sadness, anger, fear, surprise, disgust, and neutral. Aggregated review-level predictions into book-level emotional fingerprints, analyzed rating–emotion mismatches, and tracked temporal emotion trends across large-scale review data. The project demonstrates how transformer-based emotion analysis provides deeper behavioral insights into reader perception than traditional sentiment analysis.",
+"image": "goodreads",
+"technologies": [
+"Python",
+"Natural Language Processing",
+"Transformers",
+"DistilRoBERTa",
+"Hugging Face",
+"Pandas",
+"NumPy",
+"Scikit-learn",
+"Matplotlib",
+"Seaborn"
+],
+"links": {
+"github": "https://github.com/srinijamadireddy19/Goodreads-Sentiment-Analysis",
+"kaggle": "https://www.kaggle.com/code/madisrinija/goodreads-dataset-cleaning"
+}
+}
+,
+{
+"id": 4,
+"title": "Fashion-MNIST Neural Network from Scratch",
+"startDate": "Jul 2025",
+"endDate": "Sep 2025",
+"description": "Implemented a fully connected neural network for Fashion-MNIST image classification entirely from scratch using NumPy — no TensorFlow or PyTorch.",
+"details": "Built core deep learning components manually including forward and backward propagation, ReLU and Softmax activations, dropout, L2 regularization, mini-batch training, Adam optimizer, early stopping, and gradient clipping.",
+"image": "fashion",
+"technologies": [
+"Python",
+"NumPy",
+"Deep Learning",
+"Neural Networks",
+"From-Scratch Implementation"
+],
+"links": {
+"kaggle": "https://www.kaggle.com/code/madisrinija/fashion-mnist-image-classifier",
+"github": "https://github.com/srinijamadireddy19/Fashion-MNIST-Classification-From-Scratch"
+}
+},
+{
+"id": 5,
+"title": "Webpage to PDF Converter (Dynamic Title & Filename)",
+"startDate": "2025",
+"endDate": "2025",
+"description": "A Python tool that extracts readable content from any webpage and converts it into a clean, formatted PDF file automatically.",
+"details": "Uses trafilatura to extract the main article text while ignoring ads and navigation clutter, then formats it into a structured PDF using ReportLab. The script dynamically generates the PDF filename and title from the webpage URL and formats the extracted content into readable paragraphs.",
+"image": "webscraper",
+"technologies": [
+"Python",
+"Web Scraping",
+"Trafilatura",
+"ReportLab",
+"PDF Generation",
+"Automation"
+],
+"links": {
+"github": "https://github.com/srinijamadireddy19/Web-Scraping"
+}
+}
+,
+{
+"id": 6,
+"title": "Diabetes Prediction Challenge",
+"startDate": "2025",
+"endDate": "2025",
+"description": "Machine learning project that predicts the probability of diabetes using medical and demographic indicators from a Kaggle dataset.",
+"details": "Performed exploratory data analysis, feature preprocessing, and trained multiple classification models to predict diabetes risk. Evaluated models using metrics such as accuracy and ROC-AUC and optimized performance through feature engineering and hyperparameter tuning. Implemented the full ML workflow including data cleaning, model training, validation, and Kaggle submission generation.",
+"image": "diabetes",
+"technologies": [
+"Python",
+"Machine Learning",
+"Pandas",
+"NumPy",
+"Scikit-learn",
+"Data Visualization",
+"Kaggle"
+],
+"links": {
+"github": "https://github.com/srinijamadireddy19/Diabetes-Prediction-Challenge",
+"kaggle": "https://www.kaggle.com/code/madisrinija/diabetes-prediction-challenge"
+}
+}
+,
+{
+"id": 7,
+"title": "Heart Disease Prediction",
+"startDate": "2025",
+"endDate": "2025",
+"description": "Machine learning project that predicts the likelihood of heart disease using patient medical and diagnostic features.",
+"details": "Built a predictive machine learning model using clinical attributes such as age, cholesterol levels, blood pressure, and chest pain type to determine the presence of heart disease. Performed data preprocessing, exploratory data analysis, feature selection, and trained multiple classification models to compare performance. Evaluated models using metrics like accuracy, confusion matrix, and ROC-AUC to identify the most reliable prediction approach.",
+"image": "heart",
+"technologies": [
+"Python",
+"Machine Learning",
+"Scikit-learn",
+"Pandas",
+"NumPy",
+"Data Visualization",
+"Kaggle"
+],
+"links": {
+"github": "https://github.com/srinijamadireddy19/Predicting-Heart-Disease",
+"kaggle": "https://www.kaggle.com/code/madisrinija/predicting-heart-disease"
+}
+}
+,
+{
+"id": 8,
+"title": "Google Play Store Analytics using PySpark",
+"startDate": "2025",
+"endDate": "2025",
+"description": "Big data analytics project that analyzes Google Play Store applications using PySpark and SparkSQL.",
+"details": "Built a PySpark-based analytics pipeline to process and analyze the Google Play Store apps dataset. Performed large-scale data cleaning, duplicate detection, datatype conversion, and feature exploration using Spark DataFrames and SparkSQL queries. Generated insights about app ratings, categories, installs, and pricing trends, demonstrating scalable data processing with Apache Spark.",
+"image": "googleplay",
+"technologies": [
+"Python",
+"PySpark",
+"Apache Spark",
+"SparkSQL",
+"Big Data Analytics",
+"Pandas",
+"Data Visualization"
+],
+"links": {
+"github": "https://github.com/srinijamadireddy19/Google-Play-Store-Analytics-using-PySpark"
+}
+}
+,
+{
+"id": 9,
+"title": "TabNet for Tabular Data Classification",
+"startDate": "Oct 2025",
+"endDate": "Nov 2025",
+"description": "Explored TabNet, a deep learning architecture designed for tabular data, by applying it to the Binary Classification with a Bank Dataset competition on Kaggle.",
+"details": "Implemented and fine-tuned a TabNet model leveraging sequential attention for feature selection. Achieved 0.95518 accuracy and ranked 2012 on the leaderboard.",
+"image": "bank",
+"technologies": [
+"Python",
+"Deep Learning",
+"TabNet",
+"PyTorch",
+"Explainable AI",
+"Tabular Data"
+],
+"links": {
+"kaggle": "https://www.kaggle.com/competitions/playground-series-s5e8",
+"github": "https://github.com/srinijamadireddy19/Binary-Classification-with-a-Bank-Dataset"
+}
+},
+{
+"id": 10,
+"title": "YouTube Spam Comment Detection",
+"startDate": "Mar 2024",
+"endDate": "May 2024",
+"description": "Developed a machine learning model to identify and filter spam comments on YouTube videos.",
+"details": "Used Bernoulli Naïve Bayes to classify YouTube comments and automated spam filtering by embedding the model into a web application.",
+"image": "spam",
+"technologies": [
+"Python",
+"Machine Learning",
+"Flask",
+"Web Development"
+],
+"links": {
+"github": "https://github.com/srinijamadireddy19/Youtube-spam-comment-detection.git"
+}
+},
+{
+"id": 11,
+"title": "Loan Approval Prediction",
+"startDate": "Jun 2025",
+"endDate": "Aug 2025",
+"description": "Developed a predictive model to determine loan approval likelihood based on applicant financial and demographic data.",
+"details": "Applied feature engineering and model tuning to improve accuracy and compared Logistic Regression, Decision Trees, and Random Forest classifiers.",
+"image": "loan",
+"technologies": [
+"Python",
+"Machine Learning",
+"Pandas",
+"Scikit-learn"
+],
+"links": {
+"kaggle": "https://www.kaggle.com/code/madisrinija/loan-approval-prediction",
+"github": "https://github.com/srinijamadireddy19/Predicting-Loan-Approval-Status"
+}
+},
+{
+"id": 12,
+"title": "Titanic Survival Prediction",
+"startDate": "Jan 2025",
+"endDate": "Mar 2025",
+"description": "Built a classification model to predict survival on the Titanic using passenger data.",
+"details": "Performed data cleaning and feature engineering such as extracting titles from names and calculating family size. Compared multiple classifiers and evaluated using cross-validation.",
+"image": "titanic",
+"technologies": [
+"Python",
+"Machine Learning",
+"Scikit-learn",
+"Pandas",
+"Feature Engineering"
+],
+"links": {
+"kaggle": "https://www.kaggle.com/code/madisrinija/titanic-dataset",
+"github": "https://github.com/srinijamadireddy19/Titanic---Machine-Learning-from-Disaster"
+}
+},
+{
+"id": 13,
+"title": "Adoption Survival Analysis in Animal Shelters",
+"startDate": "Mar 2025",
+"endDate": "May 2025",
+"description": "Performed survival analysis on animal shelter data to identify key factors affecting adoption rates.",
+"details": "Used Kaplan-Meier curves and multivariate Cox regression to understand how factors such as age, sex, and intake type influence adoption speed.",
+"image": "animals",
+"technologies": [
+"Python",
+"Machine Learning",
+"Survival Analysis"
+],
+"links": {
+"github": "https://github.com/yourusername/animal-shelter-analysis"
+}
+},
+{
+"id": 14,
+"title": "Sales Analysis Dashboard",
+"startDate": "Feb 2025",
+"endDate": "Feb 2025",
+"description": "Designed an interactive Power BI dashboard to analyze sales performance across regions and product categories.",
+"details": "Provides insights into revenue trends, customer segmentation, and key business drivers to support data-driven decision-making.",
+"image": "SalesDashboard",
+"technologies": [
+"PowerBI",
+"Business Intelligence"
+],
+"links": {
+"github": "https://github.com/yourusername/portfolio",
+"live": "https://yourportfolio.com"
+}
+},
+{
+"id": 15,
+"title": "Cosmetic Product Segmentation",
+"startDate": "Sep 2023",
+"endDate": "Dec 2023",
+"description": "Built an interactive dashboard using R Shiny and ggplot2 to segment cosmetic products.",
+"details": "Categorized products based on age, gender and chemical composition to support targeted marketing strategies.",
+"image": "CosmeticDB",
+"technologies": [
+"R",
+"Shiny",
+"ggplot2"
+],
+"links": {
+"github": "https://github.com/srinijamadireddy19/Cosmetic-Product-Segmentation.git"
+}
+},
+{
+"id": 16,
+"title": "HerHaven - Women Community Forum",
+"startDate": "Jan 2025",
+"endDate": "Apr 2025",
+"description": "Built a React-based safety platform focused on women’s security including a community forum and emergency alert system.",
+"details": "Provides a supportive online space for sharing experiences and quick access to safety resources.",
+"image": "Herhaven",
+"technologies": [
+"React",
+"MongoDB",
+"Spring Boot",
+"Java"
+],
+"links": {
+"github": "https://github.com/srinijamadireddy19/HerHaven.git"
+}
+},
+{
+"id": 17,
+"title": "TenderHub",
+"startDate": "Aug 2024",
+"endDate": "Nov 2024",
+"description": "Created a cloud-based tender management application using Flask and AWS.",
+"details": "Admins can post tenders and manage vendors while vendors can submit bids and track their status.",
+"image": "TenderHub",
+"technologies": [
+"Flask",
+"Python",
+"Cloud",
+"SQLite",
+"AWS"
+],
+"links": {
+"github": "https://github.com/srinijamadireddy19/Tender-Management-System.git"
+}
+},
+{
+"id": 18,
+"title": "Attrition Dashboard",
+"startDate": "Mar 2025",
+"endDate": "Mar 2025",
+"description": "Designed a Power BI dashboard to visualize employee attrition patterns.",
+"details": "Analyzed factors like job role, salary, work environment, and satisfaction to identify trends and retention strategies.",
+"image": "HR",
+"technologies": [
+"PowerBI",
+"Business Intelligence"
+],
+"links": {
+"github": "https://github.com/srinijamadireddy19/Attrition-Dashboard.git"
+}
+}
+]

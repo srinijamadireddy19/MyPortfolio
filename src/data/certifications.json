@@ -1,0 +1,142 @@
+[
+{
+"id": 1,
+"title": "Deep Learning",
+"issuer": "Coursera",
+"date": "Aug 2025",
+"description": "Completed an industry-recognized Deep Learning certification covering neural networks, CNNs, RNNs, and model optimization. Gained hands-on experience with TensorFlow and PyTorch frameworks.",
+"details": "Acquired skills in building and deploying deep learning models for image recognition, natural language processing, and time series forecasting. Course Certificates Completed: Neural Networks and Deep Learning, Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization, Structuring Machine Learning Projects, Convolutional Neural Networks, Sequence Models.",
+"CredentialId": "A2QCOAQ6KQTM",
+"url": "https://coursera.org/verify/specialization/A2QCOAQ6KQTM",
+"skills": [
+"Neural Networks",
+"Convolutional Neural Networks (CNNs)",
+"Recurrent Neural Networks (RNNs)",
+"TensorFlow",
+"PyTorch",
+"Model Optimization",
+"Deep Learning Applications"
+],
+"image": "dl"
+},
+{
+"id": 2,
+"title": "Google Data Analytics Professional Certificate",
+"issuer": "Coursera",
+"date": "Mar 2025",
+"description": "Completed the Google Data Analytics Professional Certificate, gaining hands-on experience with data cleaning, analysis, and visualization.",
+"details": "Developed critical thinking and data storytelling skills to support data-driven decision-making. Course Certificates Completed: Foundations: Data, Data, Everywhere, Ask Questions to Make Data-Driven Decisions, Prepare Data for Exploration, Process Data from Dirty to Clean, Analyze Data to Answer Questions, Share Data Through the Art of Visualization, Data Analysis with R Programming, Google Data Analytics Capstone: Complete a Case Study.",
+"CredentialId": "SU4D6YNFE9NI",
+"url": "https://coursera.org/verify/professional-cert/SU4D6YNFE9NI",
+"skills": [
+"Spreadsheet Software",
+"Data Management",
+"Data Analysis",
+"Business Communication",
+"General Statistics",
+"Business Analysis",
+"Data Visualization",
+"SQL"
+],
+"image": "google"
+},
+{
+"id": 3,
+"title": "Accenture North America - Data Analytics and Visualization Job Simulation",
+"issuer": "Forage",
+"date": "Jan 2025",
+"description": "Completed a virtual job simulation by Accenture North America focused on data analytics and visualization tasks.",
+"details": "Analyzed client datasets, identified business insights, and created compelling visuals to present findings. Gained practical experience in Excel, data storytelling, and consulting-style communication.",
+"CredentialId": "FBKh3H7NiSM3hPNMo",
+"url": "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/T6kdcdKSTfg2aotxT/hzmoNKtzvAzXsEqx8_T6kdcdKSTfg2aotxT_jN35Nu5G7htzodefY_1737723725825_completion_certificate.pdf",
+"skills": [
+"Data Analytics",
+"Data Visualization"
+],
+"image": "forage"
+},
+{
+"id": 4,
+"title": "CERTIFICATE of PARTICIPATION",
+"issuer": "TechTip24",
+"date": "Mar 2025",
+"description": "Earned a Certificate of Participation from TechTip24 for completing a hands-on Power BI project.",
+"details": "Built a dynamic Sales Analysis Dashboard using Power BI to visualize KPIs and sales trends. Gained experience in data modeling, DAX, and interactive dashboard creation.",
+"skills": [
+"Power BI",
+"DAX",
+"Data Visualization"
+],
+"image": "techtip24"
+},
+{
+"id": 5,
+"title": "Build Dashboards in Power BI",
+"issuer": "Coursera Project Network",
+"date": "May 2023",
+"description": "Successfully completed the 'Build Dashboards in Power BI' project offered by Coursera Project Network.",
+"details": "Learned to connect data sources, apply DAX formulas, and design user-friendly reports. Strengthened skills in data-driven storytelling using real-world scenarios.",
+"CredentialId": "9X7VV8D55F32",
+"url": "https://coursera.org/verify/9X7VV8D55F32",
+"skills": [
+"Power BI",
+"DAX",
+"Data Analysis"
+],
+"image": "bicoursera"
+},
+{
+"id": 6,
+"title": "Certificate of Participation on Unity",
+"issuer": "ARK",
+"date": "Apr 2024",
+"description": "Participated in a Unity workshop organized by ARK, gaining exposure to game development fundamentals.",
+"details": "Explored Unity’s interface, scene building, and scripting with C#. Learned core concepts like physics, animation, and asset integration.",
+"image": "arvr"
+},
+{
+"id": 7,
+"title": "Mastering Data Analysis with Pandas",
+"issuer": "Coursera Project Network",
+"date": "Mar 2023",
+"description": "Completed the 'Mastering Data Analysis with Pandas' project offered by Coursera Project Network.",
+"details": "Worked with real-world datasets to uncover insights through filtering, grouping, and aggregation using the Pandas library.",
+"CredentialId": "EJLANGB9UTB5",
+"url": "https://coursera.org/verify/EJLANGB9UTB5",
+"skills": [
+"Python",
+"Pandas",
+"Data Analysis"
+],
+"image": "pandas"
+},
+{
+"id": 8,
+"title": "Introduction to Python Programming",
+"issuer": "University of Pennsylvania via Coursera",
+"date": "Apr 2023",
+"description": "Gained foundational knowledge of Python syntax, control structures, functions, and data types.",
+"details": "Developed problem-solving skills through coding exercises and practical examples.",
+"CredentialId": "HKTN4S6LNEAW",
+"url": "https://coursera.org/verify/HKTN4S6LNEAW",
+"skills": [
+"Python"
+],
+"image": "pythonprog"
+},
+{
+"id": 9,
+"title": "Fundamentals of Visualization with Tableau",
+"issuer": "UC Davis through Coursera",
+"date": "Jun 2023",
+"description": "Completed the 'Fundamentals of Visualization with Tableau' course offered by UC Davis.",
+"details": "Learned to create dashboards, stories, and impactful visualizations using Tableau.",
+"CredentialId": "RRMX2HSZ7S93",
+"url": "https://coursera.org/verify/RRMX2HSZ7S93",
+"skills": [
+"Tableau",
+"Business Intelligence"
+],
+"image": "tableau"
+}
+]

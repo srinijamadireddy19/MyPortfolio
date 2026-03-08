@@ -16,7 +16,6 @@ function App() {
   const [activeSection, setActiveSection] = useState('home');
   const [currentPage, setCurrentPage] = useState('main');
 
-  // Handle scroll to detect active section
   useEffect(() => {
     const handleScroll = () => {
       if (currentPage === 'main') {
@@ -36,7 +35,7 @@ function App() {
 
     window.addEventListener('scroll', handleScroll);
     
-    // Initial check for active section
+
     handleScroll();
     
     return () => {
@@ -48,7 +47,7 @@ function App() {
   setCurrentPage('main');
 };
 
-  // Smooth scroll to section when nav link is clicked
+
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
